@@ -42,11 +42,14 @@ function setup() {
 
 }
 function draw() {
-  stroke(204,153,153);
+  frameRate(4)
+  stroke('rgba(204,153,153,0.5)');
   strokeWeight(1.5);
+
+  fill('rgba(255,255,255, 0.2)')
   circleX=circleX+3;
   circleY=circleY+5;
-  circle(circleX, circleY, 20);
+  circle(circleX, circleY, 40);
   
 }
 function windowResized(){
@@ -91,5 +94,5 @@ function mousePressed(){
 // }
 // function draw(){
 //   fill(random(255),random(255),random(255),20)
-//   circle(mouseX,mouseY,random(30))
+//   circle(mouseX,mouseY,random(220))
 // }

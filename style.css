@@ -54,7 +54,7 @@ a {
 
   .top{
       position: absolute;
-    background-color:rgba(204, 153,255, 0.6);
+    /* background-color:rgba(204, 153,255, 0.6); */
     height: 18px;
   }
 .namebox{
@@ -158,7 +158,7 @@ h4:hover{
 
 }
 .grid{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     margin:5px;
     height: 150px;
     width: 150px;
@@ -217,4 +217,14 @@ h4:hover{
         flex-direction: column;
         align-items: center;
         justify-content: left;
-}}
+    
+}
+
+    .landscape{
+    /* background-color: pink; */
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+   
+}
+}
