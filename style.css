@@ -207,7 +207,16 @@ h4:hover{
         border-color: rgb(230, 230, 230);
         background-color: rgba(255, 255, 255, 0.3);
     }
-    .pagrid{
+   
+
+    .landscape{
+    /* background-color: pink; */
+    height: 200px;
+    width: auto;
+    
+   
+}
+ .pagrid{
         /* background-color: darksalmon; */
         height: auto;
         margin-left: 6%;
@@ -218,13 +227,5 @@ h4:hover{
         align-items: center;
         justify-content: left;
     
-}
-
-    .landscape{
-    /* background-color: pink; */
-    height: auto;
-    width: 90%;
-    margin-left: 5%;
-   
 }
 }
