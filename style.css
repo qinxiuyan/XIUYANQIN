@@ -162,7 +162,7 @@ h4:hover{
     margin:5px;
     height: 150px;
     width: 150px;
-    background-image: url(./images/exper/LDAR2256_Xiuyan\ Qin_Ex\ 10_Generating\ Form04.jpg);
+    /* background-image: url(./images/exper/LDAR2256_Xiuyan\ Qin_Ex\ 10_Generating\ Form04.jpg); */
     background-size: cover;
     
 }
@@ -184,6 +184,8 @@ h4:hover{
 .pageimage{
     width: 100%;
     padding: 3%;
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
