@@ -188,6 +188,11 @@ h4:hover{
     justify-content: center;
 }
 
+.writingbox{
+    margin: 5.5%;
+    
+}
+
 @media screen and (max-width: 768px) {
     .paintro{
         /* background-color: chocolate; */
