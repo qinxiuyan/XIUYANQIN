@@ -118,8 +118,8 @@ h4:hover{
     border-style: dashed;
     border-color: rgb(230, 230, 230);
     height: auto;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -211,6 +211,8 @@ h4:hover{
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin-left: 1%;
+        margin-right: 1%;
         padding: 3%;
         border-color: rgb(230, 230, 230);
         background-color: rgba(255, 255, 255, 0.3);
