@@ -87,11 +87,12 @@ a {
 }
 .introtext{
     height: auto;
-    width: 450px;
+    max-width: 470px;
+    min-width: none;
     background-color: rgba(255, 255, 255, 0.3);
     /* background-color: rgb(255, 182, 47); */
     margin: 4%;
-    padding: 5%;
+    padding: 3%;
 }
 .menuswitch{
     /* background-color: blueviolet; */
@@ -218,7 +219,8 @@ h4:hover{
 
     .landscape{
     /* background-color: pink; */
-    height: 200px;
+    min-height: 180px;
+    max-height: 200px;
     width: auto;
     
    
